@@ -213,7 +213,7 @@ a:active {
   #about {
       background-image: url(../img/profile-banner.jpg); 
       background-size: cover;
-      background-position: center center;
+      background-position: center right;
       background-repeat: no-repeat;
   }
 
