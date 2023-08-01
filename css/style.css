@@ -37,6 +37,7 @@ h2 {
 
 a {
     color: #2196f3;
+    text-decoration: none;
 }
 
 a:hover,
@@ -211,8 +212,9 @@ a:active {
                       ABOUT
 ====================================================*/
   #about {
-      background-image: url(../img/profile-banner.jpg); 
+      background-image: url(../img/profile-display.jpeg); 
       background-size: cover;
+      /* object-fit: cover; */
       background-position: center right;
       background-repeat: no-repeat;
   }
@@ -235,7 +237,7 @@ a:active {
   }
 
 /*====================================================
-                   PORTFOLIO
+                   EDUCATION
 ======================================================*/
 
 #portfolio{
@@ -444,7 +446,7 @@ a:active {
 }
 
 /*====================================================
-                      AWARD
+                      CERTIFICATIONS
 ======================================================*/
  
 #awards {
