@@ -7,7 +7,7 @@ body {
     color: #868e96;
 }
 
-@media  (max-width: 500px) {
+@media  (max-width: 480px) {
     #about {
         background-image: url(../img/profile-display-small.jpeg);
     }
