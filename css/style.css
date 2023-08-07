@@ -7,12 +7,6 @@ body {
     color: #868e96;
 }
 
-@media  (max-width: 480px) {
-    #about {
-        background-image: url(../img/profile-display-small.jpeg);
-    }
-  }
-
 @media (min-width: 992px) {
     body {
         padding-top: 0;
@@ -227,6 +221,12 @@ a:active {
 
   #about h1 {
     /*font-size: 100%;*/
+  }
+
+  @media  (max-width: 480px) {
+    #about {
+        background-image: url(../img/profile-display-small.jpeg);
+    }
   }
 
 /*==================================================
